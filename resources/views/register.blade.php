@@ -194,7 +194,7 @@
                             </div>
                             <br><br>
                         @endif
-                        <form class="login-form-inner" method="POST" action="register">
+                        <form class="login-form-inner" method="POST" action="/">
                             @csrf
                             <div class="single-input-inner style-border">
                                 <input type="text" placeholder="Your Username" name="username">

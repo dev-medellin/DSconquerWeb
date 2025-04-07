@@ -5,5 +5,5 @@ use App\Http\Controllers\Auth\RegisterController;
 
 
 
-Route::get('/register', [RegisterController::class, 'index'])->name('register-get');
-Route::post('/register', [RegisterController::class, 'register'])->name('register');
+Route::get('/', [RegisterController::class, 'index'])->name('register-get');
+Route::post('/', [RegisterController::class, 'register'])->name('register');
