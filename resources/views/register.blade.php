@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DYAT - eSports and Gaming NFT HTML Template </title>
-    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+    <title>DSConquer - The final battle between gods </title>
+    <link rel=icon href="assets/img/icons.ico" sizes="20x20" type="image/png">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
@@ -27,16 +27,8 @@
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
     <!-- cursor End -->
-     
+
     <!-- search popup start-->
-    <div class="td-search-popup" id="td-search-popup">
-        <form action="https://wowtheme7.com/tf/dyat/index.html" class="search-form">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.....">
-            </div>
-            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
     <!-- search popup end-->
     <div class="body-overlay" id="body-overlay"></div>
 
@@ -44,14 +36,14 @@
     <nav class="navbar navbar-area navbar-area-2 navbar-border navbar-expand-lg">
         <div class="container nav-container px-lg-0">
             <div class="responsive-mobile-menu">
-                <button class="menu toggle-btn d-block d-lg-none" data-target="#xdyat" 
+                <button class="menu toggle-btn d-block d-lg-none" data-target="#xdyat"
                 aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-left"></span>
                     <span class="icon-right"></span>
                 </button>
             </div>
             <div class="logo">
-                <a href="index-2.html"><img src="{{ asset('assets/img/logo.png')}}" alt="img"></a>
+                <a href="index-2.html"><img src="{{ asset('assets/img/logo/logo1.png')}}" alt="img"></a>
             </div>
             <div class="collapse navbar-collapse" id="xdyat_main_menu">
                 <!-- <ul class="navbar-nav menu-open ps-lg-5 pe-xl-4 text-end">
@@ -124,7 +116,7 @@
                         <span>
                             <span>
                                 <img src="assets/img/btn-arrow.png" alt="img">
-                                ~  
+                                ~
                             </span>
                             <span>connect</span>
                         </span>
@@ -136,7 +128,7 @@
     <!-- navbar end -->
 
     <!-- off canvas -->
-    <div class="offcanvas offcanvas-menu-wrap offcanvas-end" tabindex="-1" id="offcanvasright">
+    {{-- <div class="offcanvas offcanvas-menu-wrap offcanvas-end" tabindex="-1" id="offcanvasright">
         <div class="offcanvas-menu-inner">
             <button type="button" class="offcanvas-icon" data-bs-dismiss="offcanvas" aria-label="Close">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg>
@@ -163,7 +155,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- off canvas end -->
 
     <!-- page title start -->
@@ -232,7 +224,7 @@
                 </div>
                 <div class="col-lg-6 ps-xl-5 mt-lg-0 mt-5">
                     <div class="ps-xl-5 ps-lg-4">
-                        <img class="w-100" src="assets/img/logo/logo1.png" alt="img">
+                        <iframe src="https://discord.com/widget?id=1341792101058482209&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                     </div>
                 </div>
             </div>
@@ -332,10 +324,10 @@
     <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
     <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <script src="{{ asset('assets/js/lenis.min.js') }}"></script>
-    
+
     <!-- main js  -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
-    
+
 </body>
 
 <!-- Mirrored from wowtheme7.com/tf/dyat/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Oct 2024 15:49:09 GMT -->
